@@ -1,0 +1,20 @@
+﻿@model HospitalMVC.Models.LoginViewModel
+
+<div style="height: 20%;"></div>
+<div style="display:grid; place-items:center; background-color: lightgray; box-shadow:0 4px 8px rgba(0,0,0,0.3);">
+    <form asp-action="Login" asp-controller="Home" method="post"
+          style="height:250px;width:250px;background-color:steelblue;display:flex;flex-direction:column;border-radius:15px;box-shadow:0 4px 8px rgba(0,0,0,0.2);padding:8px;">
+        <input asp-for="Email" type="email" placeholder="youremail@HospitalMVC.local" style="margin:50px 0 10px 5px;width:200px;height:25px; " />
+        <input asp-for="Password" type="password" placeholder="12345!" style="margin-left:5px;width:200px;height:25px;" />
+        <div style="margin-left:5px;margin-top:10px;">
+            <button type="submit">Login</button>
+            <button type="submit" formaction="Register">Register</button>
+        </div>
+    </form>
+
+    
+</div>
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
