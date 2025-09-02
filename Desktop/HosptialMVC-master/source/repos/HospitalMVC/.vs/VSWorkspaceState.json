@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HospitalMVC",
+    "\\HospitalMVC\\Controllers",
+    "\\HospitalMVC\\Data",
+    "\\HospitalMVC\\Models",
+    "\\HospitalMVC\\Services",
+    "\\HospitalMVC\\Views",
+    "\\HospitalMVC\\Views\\Doctor",
+    "\\HospitalMVC\\Views\\Home"
+  ],
+  "SelectedNode": "\\HospitalMVC\\Services\\OrderPublisher.cs",
+  "PreviewInSolutionExplorer": false
+}
